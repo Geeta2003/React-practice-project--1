@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* Hero Section Styles */
+.Hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f1e8; /* Light coffee color */
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    height: 70vh;
+    border-radius: 20px;
+  }
+  
+  /* Text Content */
+  .Hero .text {
+    max-width: 50%;
+  }
+  
+  .Hero h1 {
+    font-size: 3rem;
+    color: #3e2723; /* Dark coffee color */
+    margin-bottom: 1rem; font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .Hero p {
+    font-size: 1.1rem;
+    color: #5d4037; /* Medium coffee color */
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  /* Order Buttons */
+  .order-btn {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "Ubuntu", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .Order-Your-Brew {
+    background-color: #388e3c; /* Starbucks green */
+    color: #fff;
+  }
+  
+  .Order-Your-Brew:hover {
+    background-color: #2e7d32;
+  }
+  
+  .Explore-the-Menu {
+    background-color: #d32f2f; /* Deep red */
+    color: #fff;
+  }
+  
+  .Explore-the-Menu:hover {
+    background-color: #b71c1c;
+  }
+  
+  /* App Logos */
+  .apps {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .apps img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Starbucks Cup Image */
+  .starbuck-cup img {
+    width: 80%;
+    max-width: 500px;
+    animation: float 3s ease-in-out infinite;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
